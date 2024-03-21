@@ -2,10 +2,10 @@
 
 OniLaravelDebugger is a Composer package designed to provide custom debugging functionality for Laravel projects. It allows you to log debug data in a structured and customizable way.
 
-You can install MyDebugger via Composer. Run the following command in your Laravel project directory:
+You can install OniLaravelDebugger via Composer. Run the following command in your Laravel project directory:
 
 ```bash
-composer require your-username/my-debugger
+composer require oniicoder/oni-laravel-debugger
 ```
 After insalling, from your project directory; run:
 ```bash
