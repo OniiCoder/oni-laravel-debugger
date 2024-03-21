@@ -1,5 +1,5 @@
 {
-  "name": "OniiCoder/oni-debugger",
+  "name": "oniicoder/oni-laravel-debugger",
   "description": "Basic debugger for Laravel projects",
   "type": "library",
   "license": "MIT",
