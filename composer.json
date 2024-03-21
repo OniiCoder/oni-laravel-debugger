@@ -1,0 +1,20 @@
+{
+  "name": "OniiCoder/oni-debugger",
+  "description": "Basic debugger for Laravel projects",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "oniicoder@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OniiCoder\\OniDebugger\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
