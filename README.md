@@ -7,13 +7,30 @@ You can install OniLaravelDebugger via Composer. Run the following command in yo
 ```bash
 composer require oniicoder/oni-laravel-debugger
 ```
-After insalling, from your project directory; run:
-```bash
-tail -f storage/logs/debug.log
+
+Add to your config/app.php providers array:
+
 ```
+[
+    ...
+    'providers' => [
+        ...
+        \OniiCoder\OniDebugger\OniLaravelDebuggerServiceProvider::class,
+        ...
+    ]
+]
+```
+
+After insalling, from your project directory; run:
+
+```bash
+php artisan oni:debugger
+```
+
 This will show you a live debug console.
 
 To use, in your code:
+
 ```php
 oni($variable1, $variable2);
 ```
